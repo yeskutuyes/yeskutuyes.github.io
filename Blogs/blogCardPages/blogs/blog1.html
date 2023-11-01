@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="/assets/img/favicon.png" rel="shortcut icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <title>Hunting Down a Critical Vulnerability in the Assam Electoral Website</title>
+  <meta name="robots" content="all">
+  <meta name="description" content="Discover a critical security vulnerability on the Assam Electoral Website. Learn about its detection, implications, and government response. Explore the significance of cybersecurity in safeguarding electoral processes.">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/Blogs/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/Blogs/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <!-- <h1 class="logo"><a href="/index.html">HACKZAP SECURITY</a></h1> -->
+
+      <div class="container">
+        <a href="/index.html">
+          <img draggable="false" class="logo_screen_size img-fluid" id="logo_baazi" src="/assets/img/hackzap-security-logo.png" alt="Hackzap security logo" style="height:auto; max-width: 100%; width: auto; max-height: 72px;">
+        </a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="/index.html">HOME</a></li>
+          <li><a class="nav-link scrollto active" href="/about.html">ABOUT</a></li>
+          <li class="dropdown"><a href=""><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href=""><span>PENETRATION TESTING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/services/pentesting/external-pentesting.html">EXTERNAL PENTESTING</a></li>
+                  <li><a href="/services/pentesting/internal-pentesting.html">INTERNAL PENTESTING</a></li>
+                  <li><a href="/services/pentesting/api-pentesting.html">API PENTESTING</a></li>
+                  <li><a href="/services/pentesting/physical-pentesting.html">PHYSICAL PENTESTING</a></li>
+                  <li><a href="/services/pentesting/purple-pentesting.html">PURPLE PENTESTING</a></li>
+                  <li><a href="/services/pentesting/web-pentesting.html">WEB APP PENTESTING</a></li>
+                  <li><a href="/services/pentesting/wireless-pentesting.html">WIRELESS PENTESTING</a></li>
+                  <li><a href="/services/pentesting/social-engineering.html">SOCIAL ENGINEERING</a></li>
+                  <li><a href="/services/pentesting/vulnerability-scanning.html">VULNERABILITY SCANNING</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href=""><span>AUDITING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/services/auditing/cloud-security-assessment.html">CLOUD SECURITY ASSESMENT</a></li>
+                  <li><a href="/services/auditing/system-compliance-check.html">SYSTEM COMPLIANCE CHECK</a></li>
+                  <li><a href="/services/auditing/network-config-assessment.html">NETWORK CONFIG ASSESMENT</a></li>
+                  <li><a href="/services/auditing/password-audit.html">PASSWORD ASSESMENT</a></li>
+                  <li><a href="/services/auditing/secure-code-analysis.html">SECURE CODE ANALYSIS</a></li>
+                  <li><a href="/services/auditing/security-policy-assessment.html">SECURITY POLICY ASSESMENT</a></li>
+                  <li><a href="/services/auditing/security-risk-assessment.html">SECURITY RISK ASSESMENT</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href=""><span>SECURE DEVELOPMENT</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                      <li><a href="/services/development/secure-web-development.html">SECURE WEB DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-mobile-app-development.html">SECURE MOBILE APP DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-iot-development.html">SECURE IOT DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-devops.html">SECURE DEVOPS AND CI/CD</a></li>
+                      <li><a href="/services/development/code-review-and-analysis.html">CODE REVIEW AND ANALYSIS</a></li>
+                      <li><a href="/services/development/threat-modeling.html">THREAT MODELING</a></li>
+                      <li><a href="/services/development/secure-api-development.html">SECURE API DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-cloud-development.html">SECURE CLOUD DEVELOPMENT</a></li>
+                      <li><a href="/services/development/compliance-and-regulations.html">COMPLIANCE AND REGULATIONS</a></li>
+                      <li><a href="/services/development/secure-database-development.html">SECURE DATABASE DEVELOPMENT</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>TRAINING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                      <li><a href="/services/training/training-organizations.html">TRAINING FOR ORGANIZATIONS</a></li>
+                      <li><a href="/services/training/training-individuals.html">TRAINING FOR INDIVIDUALS</a></li>
+                </ul>
+              </li>
+              
+              <li class="dropdown"><a href="#"><span>OTHER SERVICES</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                      <li><a href="/services/other-services/customized-security-consultancy.html">CUSTOMIZED SECURITY CONSULTANCY</a></li>
+                      <li><a href="/services/other-services/influencer-social-media-managment.html">INFLUENCER SOCIAL MEDIA MANAGMENT</a></li>
+                </ul>
+              </li>
+
+              <li style="background: #5846f9; text-align: center; margin-top: 10px;"><a href="/services.html" style="color: white;">VIEW ALL OUR SERVICES</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li style="background: #5846f9; text-align: center; margin-top: 10px;"><a href="/courses.html" style="color: white;">VIEW ALL COURSES</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="/Blogs/blogCardPages/blogCardPage1.html">BLOG</a></li>
+          <li><a class="nav-link scrollto" href="https://hacktevo.github.io/#faq">FAQ</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+
+          <li><a class="getstarted scrollto" href="/services.html">SERVICES</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Blogs & Articles</h2>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+            <h1 style="padding-bottom: 20px;">Hunting Down a Critical Vulnerability in the Assam Electoral Website</h1>
+
+            <img class="imgInsideBlog" style="height: auto; width: auto;" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*BaUSp5pyrh_fRemS4jeWxw.png"  alt="Banner image for the article on Hunting Down a Critical Vulnerability in the Assam Electoral Website by Hackzap Security's founder Chiranjit Ghosh">
+
+            <p class="paragraph">
+              In the pursuit of checking my voters' information on the Assam Electoral Website, little did I know that my curiosity would lead me to uncover a dangerous security vulnerability. This article recounts my journey from discovering the vulnerability to promptly reporting it to the government, ensuring the safety and integrity of the electoral process.
+            </p>
+            
+            <h2>Step 1: Unintended Paths and Suspicious URLs</h2>
+            <p class="paragraph">
+              Upon visiting the official Assam Electoral Website to find my voters' details, I noticed that the website redirected me to an unusual IP address (xxx.x.xxx.xxx) with port 8080. It appeared to be a different server hosting the application I intended to use. This unexpected redirection raised a red flag, sparking my suspicion that there might be a security vulnerability in play.
+            </p>
+            
+            <h2>Step 2: The Trepidation Builds</h2>
+            <p class="paragraph">
+              The redirected page required me to fill out a form with my personal information to retrieve my voter ID and name. As an individual concerned about online security, I realized that this process could be flawed and potentially lead to unauthorized access to sensitive data.
+            </p>
+            
+            <h2>Step 3: Digging Deeper with Dirbuster</h2>
+
+            <img class="imgInsideBlog" style="height: auto; width: auto;" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*VCjwxASvYUThWxvO4pkHxw.png"  alt="showing image of directory scanning">
+
+            <p class="paragraph">
+              To confirm my suspicions and assess the extent of the vulnerability, I decided to use a tool called Dirbuster. This tool helps in discovering hidden directories and files on a web server. By using Dirbuster on the IP address, I was able to find hidden directories, and that's where the story took a worrisome turn.
+            </p>
+            
+            <h2>Step 4: Stumbling upon the Admin Login Portal</h2>
+
+            <img class="imgInsideBlog" style="height: auto; width: auto;" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*3SQR3kLxtmQEHnBDq7hwqQ.png"  alt="image of admin panel access of assam's electoral website">
+
+            <p class="paragraph">
+              Dirbuster revealed an administrative login portal at http://xxx.x.xxx.xxx:8080/utility/Frame.php. The presence of an unsecured admin login panel was a significant security flaw in itself. My intuition told me to investigate further, and by examining the source code of the login page, I uncovered the critical security vulnerability.
+            </p>
+            
+            <h2>Step 5: Bad Javascript Found in the Source Code</h2>
+
+            <img class="imgInsideBlog" style="height: auto; width: auto;" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5RyFKf5goP3fw8XvQtcZFg.png"  alt="javascript code with bad logic">
+
+            <p class="paragraph">
+              The login page source code exposed a major flaw in the authentication mechanism. A parameter named "tag" controlled the actions performed after a successful login. By altering the value of the "tag" parameter to "2", an attacker could bypass the authentication process entirely and gain unauthorized access to the administrative database panel.
+            </p>
+            
+            <h1>Consequences: The Grim Possibilities</h1>
+            <p class="paragraph">
+              This vulnerability held the potential for devastating consequences. An attacker exploiting this flaw could perform Remote Code Execution (RCE) by uploading malicious PHP files to the server. They could manipulate, delete, view, or add data in the administrative database, including critical information like the voter registration database. The implications were alarming, as it could compromise the entire electoral process, leak sensitive private information, and severely damage the credibility of the electoral system.
+            </p>
+            
+            <h1>Reporting the Vulnerability:</h1>
+            <p class="paragraph">
+              Recognizing the urgency of the situation, I immediately reported my findings to the government at 3:30 AM. I provided a detailed report outlining the vulnerability's nature and possible consequences, along with recommendations for mitigation.
+            </p>
+            
+            <p class="paragraph">
+              After promptly reporting the critical security vulnerability to the government, immediate action was taken to safeguard the Assam Electoral Website. In response to the disclosure, the government worked tirelessly to address the issue and prevent any potential exploitation. As part of their security measures, the IP URL hosting the vulnerable website was temporarily made inaccessible for a few weeks.
+            </p>
+            
+            <p class="paragraph">
+              While this may have caused inconvenience to Assam’s citizens who wanted to check their voter ID cards and details online, it was a necessary step to ensure the vulnerability was thoroughly addressed. (Apologies to the citizens of Assam for the website downtime; little did they know, I was just one bug away from becoming public enemy number one! . Lol 😂)
+            </p>
+            
+            <p class="paragraph">
+              During the period of temporary unavailability, the government's cybersecurity team was hard at work revamping the entire portal. They redesigned it with a more robust and secure architecture, bolstering the authentication and authorization mechanisms. The new portal prioritized data protection and reduced the risk of unauthorized access to sensitive information.
+            </p>
+            
+            <p class="paragraph">
+              Once the improvements were in place, the website was re-launched, providing citizens with a safer and more secure platform to access their voter information online. Thanks to the proactive measures taken by the government and the collaborative efforts, citizens of Assam could confidently use the new portal, knowing that their data was protected against potential threats.
+            </p>
+            
+            <p class="paragraph">
+              The incident served as a valuable lesson, highlighting the importance of cybersecurity in government systems, particularly those related to critical processes like elections. By acknowledging the vulnerability and swiftly taking remedial actions, the government demonstrated its commitment to protecting the democratic process and securing citizens' data.
+            </p>
+            
+            <h1>Conclusion:</h1>
+            <p class="paragraph">
+              The journey from checking my voters' information to discovering a dangerous vulnerability on the Assam Electoral Website was an eye-opening experience. It highlights the importance of vigilance and responsible disclosure in securing critical government systems. My hope is that by reporting this vulnerability promptly, I have contributed to safeguarding the electoral process and preserving the trust of the citizens in the democratic system.
+            </p>
+            
+
+
+          <!-- Start Next and Prev Button -->
+          <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px;">
+            <a href="#"><button  class="button-33" >PREVIOUS</button></a>
+            <a href="/Blogs/blogCardPages/blogs/blog2.html"><button  class="button-33" style="margin-left: 10px;">NEXT</button></a>
+          </div>
+          <!-- End Next and Prev Button -->
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Hackzap Security</h3>
+            <em>
+              <strong>Email:</strong> hackzapsecurity@protonmail.com<br>
+              <strong>WhatsApp:</strong> +91 7686 046 742<br>
+            </em>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/pentesting/web-pentesting.html">Web Application Pentesting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/other-services/customized-security-consultancy.html">Customized Security Consultancy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/auditing/secure-code-analysis.html">Secure Code Analysis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/development/secure-web-development.html">Secure Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/pentesting/api-pentesting.html">API Pensting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/courses.html">Our Courses</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p class="paragraph">Don't miss out on the latest cybersecurity insights! Join our mailing list.</p>
+            <form action="#" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Hackzap Security</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Find our sitemap here: <a href="https://www.hackzapsecurity.in/sitemap.xml">Sitemap.</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://twitter.com/hackzapsecurity" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/hackzapsecurity/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/hackzapsecurity/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/hackzap-security/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.youtube.com/hackzap-security/" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=917686046742&text=Hi%2C%20I%20have%20some%20doubt%20regarding%20Hackzap%20Security%27s%20services/" class="linkedin" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/Blogs/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/Blogs/assets/vendor/aos/aos.js"></script>
+  <script src="/Blogs/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/Blogs/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/Blogs/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/Blogs/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/Blogs/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/Blogs/assets/js/main.js"></script>
+
+</body>
+
+</html>

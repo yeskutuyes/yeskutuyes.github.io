@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://hackzapsecurity.in/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/index.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/web-pentesting.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/api-pentesting.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/external-pentesting.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/internal-pentesting.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/physical-pentesting.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/purple-pentesting.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/wireless-pentesting.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/social-engineering.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/pentesting/vulnerability-scanning.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/auditing/cloud-security-assessment.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/auditing/system-compliance-check.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/auditing/network-config-assessment.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/auditing/password-audit.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/auditing/secure-code-analysis.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/auditing/security-policy-assessment.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/auditing/security-risk-assessment.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/secure-web-development.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/secure-mobile-app-development.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/secure-iot-development.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/secure-devops.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/code-review-and-analysis.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/threat-modeling.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/secure-api-development.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/secure-cloud-development.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/compliance-and-regulations.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/development/secure-database-development.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/training/training-organizations.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/training/training-individuals.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/other-services/customized-security-consultancy.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services/other-services/influencer-social-media-managment.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/services.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/courses.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/Blogs/blogCardPages/blogCardPage1.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/contact.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/about.html</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/terms-and-conditions.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/privacy-policy.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/Blogs/blogCardPages/blogs/blog1.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+
+<url>
+  <loc>https://hackzapsecurity.in/Blogs/blogCardPages/blogs/blog2.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+
+</urlset>

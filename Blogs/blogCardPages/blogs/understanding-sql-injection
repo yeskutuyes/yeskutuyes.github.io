@@ -7,9 +7,12 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="/assets/img/favicon.png" rel="shortcut icon">
   <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <title>Hackers Compromising Over 100,000 Windows RDP Daily | RDP Attacks Growing</title>
+  <title>Understanding SQL Injection Attacks</title>
   <meta name="robots" content="all">
   <meta name="description" content="Explore the rising threat of RDP attacks as hackers compromise 100,000+ Windows RDP systems daily. Stay informed about the evolving landscape of cybersecurity risks.">
+
+  <!-- css codes for prism  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css" rel="stylesheet">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -315,6 +318,9 @@ $stmt->execute();</code></pre>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
+
+<!-- Code prism here  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
 
   <!-- Vendor JS Files -->
   <script src="/Blogs/assets/vendor/purecounter/purecounter_vanilla.js"></script>

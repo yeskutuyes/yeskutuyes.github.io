@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="/assets/img/favicon.png" rel="shortcut icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <title>Hackers Compromising Over 100,000 Windows RDP Daily | RDP Attacks Growing</title>
+  <meta name="robots" content="all">
+  <meta name="description" content="Explore the rising threat of RDP attacks as hackers compromise 100,000+ Windows RDP systems daily. Stay informed about the evolving landscape of cybersecurity risks.">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/Blogs/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/Blogs/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/Blogs/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <!-- <h1 class="logo"><a href="/index.html">HACKZAP SECURITY</a></h1> -->
+
+      <div class="container">
+        <a href="/index.html">
+          <img draggable="false" class="logo_screen_size img-fluid" id="logo_baazi" src="/assets/img/hackzap-security-logo.png" alt="Hackzap security logo" style="height:auto; max-width: 100%; width: auto; max-height: 72px;">
+        </a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="/index.html">HOME</a></li>
+          <li><a class="nav-link scrollto active" href="/about.html">ABOUT</a></li>
+          <li class="dropdown"><a href=""><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href=""><span>PENETRATION TESTING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/services/pentesting/external-pentesting.html">EXTERNAL PENTESTING</a></li>
+                  <li><a href="/services/pentesting/internal-pentesting.html">INTERNAL PENTESTING</a></li>
+                  <li><a href="/services/pentesting/api-pentesting.html">API PENTESTING</a></li>
+                  <li><a href="/services/pentesting/physical-pentesting.html">PHYSICAL PENTESTING</a></li>
+                  <li><a href="/services/pentesting/purple-pentesting.html">PURPLE PENTESTING</a></li>
+                  <li><a href="/services/pentesting/web-pentesting.html">WEB APP PENTESTING</a></li>
+                  <li><a href="/services/pentesting/wireless-pentesting.html">WIRELESS PENTESTING</a></li>
+                  <li><a href="/services/pentesting/social-engineering.html">SOCIAL ENGINEERING</a></li>
+                  <li><a href="/services/pentesting/vulnerability-scanning.html">VULNERABILITY SCANNING</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href=""><span>AUDITING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/services/auditing/cloud-security-assessment.html">CLOUD SECURITY ASSESMENT</a></li>
+                  <li><a href="/services/auditing/system-compliance-check.html">SYSTEM COMPLIANCE CHECK</a></li>
+                  <li><a href="/services/auditing/network-config-assessment.html">NETWORK CONFIG ASSESMENT</a></li>
+                  <li><a href="/services/auditing/password-audit.html">PASSWORD ASSESMENT</a></li>
+                  <li><a href="/services/auditing/secure-code-analysis.html">SECURE CODE ANALYSIS</a></li>
+                  <li><a href="/services/auditing/security-policy-assessment.html">SECURITY POLICY ASSESMENT</a></li>
+                  <li><a href="/services/auditing/security-risk-assessment.html">SECURITY RISK ASSESMENT</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href=""><span>SECURE DEVELOPMENT</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                      <li><a href="/services/development/secure-web-development.html">SECURE WEB DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-mobile-app-development.html">SECURE MOBILE APP DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-iot-development.html">SECURE IOT DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-devops.html">SECURE DEVOPS AND CI/CD</a></li>
+                      <li><a href="/services/development/code-review-and-analysis.html">CODE REVIEW AND ANALYSIS</a></li>
+                      <li><a href="/services/development/threat-modeling.html">THREAT MODELING</a></li>
+                      <li><a href="/services/development/secure-api-development.html">SECURE API DEVELOPMENT</a></li>
+                      <li><a href="/services/development/secure-cloud-development.html">SECURE CLOUD DEVELOPMENT</a></li>
+                      <li><a href="/services/development/compliance-and-regulations.html">COMPLIANCE AND REGULATIONS</a></li>
+                      <li><a href="/services/development/secure-database-development.html">SECURE DATABASE DEVELOPMENT</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a href="#"><span>TRAINING</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                      <li><a href="/services/training/training-organizations.html">TRAINING FOR ORGANIZATIONS</a></li>
+                      <li><a href="/services/training/training-individuals.html">TRAINING FOR INDIVIDUALS</a></li>
+                </ul>
+              </li>
+              
+              <li class="dropdown"><a href="#"><span>OTHER SERVICES</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                      <li><a href="/services/other-services/customized-security-consultancy.html">CUSTOMIZED SECURITY CONSULTANCY</a></li>
+                      <li><a href="/services/other-services/influencer-social-media-managment.html">INFLUENCER SOCIAL MEDIA MANAGMENT</a></li>
+                </ul>
+              </li>
+
+              <li style="background: #5846f9; text-align: center; margin-top: 10px;"><a href="/services.html" style="color: white;">VIEW ALL OUR SERVICES</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>COURSES</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li><a href="/coming-soon/coming-soon.html">EXCITING NEW COURSES ON THE HORIZON!</a></li>
+                  <li style="background: #5846f9; text-align: center; margin-top: 10px;"><a href="/courses.html" style="color: white;">VIEW ALL COURSES</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="/Blogs/blogCardPages/blogCardPage1.html">BLOG</a></li>
+          <li><a class="nav-link scrollto" href="https://hacktevo.github.io/#faq">FAQ</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+
+          <li><a class="getstarted scrollto" href="/services.html">SERVICES</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Blogs & Articles</h2>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="row gy-4">
+        <!-- start of blog -->
+
+            <h1 style="padding-bottom: 40px;">Understanding SQL Injection Attacks</h1>
+
+            <img class="imgInsideBlog" style="height: auto; width: auto;" src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*NUG95jw8BYaQI9KY_2DfkA.jpeg"  alt="rdp connect dialog box">
+
+            <p class="paragraph">In the ever-evolving landscape of cybersecurity, SQL injection (SQLi) stands tall as one of the most pervasive and dangerous threats to web applications. At HackZap Security, we understand the critical importance of safeguarding digital assets against such malicious exploits. In this article, we delve into the depths of SQL injection attacks, unraveling their mechanisms, implications, and strategies for mitigation.</p>
+            
+            <h2>What is SQL Injection?</h2>
+            
+            <p class="paragraph">SQL injection is a malicious technique that exploits vulnerabilities in web applications to execute unauthorized SQL queries. By injecting malicious SQL code into input fields or parameters, attackers can manipulate database operations and extract sensitive information.</p>
+            
+            <h2>How Does SQL Injection Work?</h2><br>
+
+            <img class="imgInsideBlog" style="height: auto; width: auto;" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*Tg-Wtvhszkwx35bNHjAa1g.jpeg"  alt="chart of growing rdp attacks">
+
+            <img class="imgInsideBlog" style="height: auto; width: auto;" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*nmcgAVe2cLFVEWaZrmBCyQ.jpeg"  alt="shodan screenshot showing number of devices exposing RDP">
+            
+            <p class="paragraph">Imagine a scenario where a web application uses SQL queries to authenticate users:</p>
+
+            <pre><code class="language-sql">SELECT * FROM users WHERE username = 'input_username' AND password = 'input_password';</code></pre>
+
+            <p class="paragraph">An attacker can manipulate the input fields to inject malicious SQL code, such as '<code>' OR '1'='1</code>', altering the query to:</p>
+
+            <pre><code class="language-sql">SELECT * FROM users WHERE username = 'input_username' AND password = '' OR '1'='1';</code></pre>
+
+            <p class="paragraph">This modified query always evaluates to true ('<code>1'='1'</code>), granting unauthorized access to the application.</p>
+
+            <h2>Types of SQL Injection</h2>
+
+            <p class="paragraph">SQL injection attacks manifest in various forms, each with distinct objectives:</p>
+
+  <ol class="paragraph">
+    <li><strong>In-band SQL Injection:</strong> Attackers use the same communication channel to execute the attack and retrieve results. Techniques include error-based and union-based attacks.</li>
+    <li><strong>Blind SQL Injection:</strong> Exploiting scenarios where error messages are not directly accessible, attackers infer information through boolean-based or time-based techniques.</li>
+    <li><strong>Out-of-Band (OOB) SQL Injection:</strong> Utilizing alternate channels, such as DNS or HTTP requests, to exfiltrate data when direct retrieval is not feasible.</li>
+  </ol>
+
+  <h2>Examples of SQL Injection Attacks</h2>
+
+  <p class="paragraph">Consider the following scenarios demonstrating SQL injection vulnerabilities:</p>
+
+  <ol>
+    <li><strong>Basic Authentication Bypass:</strong><br>
+     An attacker enters '<code>' OR '1'='1</code>' in the password field, bypassing authentication checks and gaining unauthorized access.</li>
+    <li><strong>Data Extraction:</strong><br>
+     By injecting '<code>105 OR 1=1</code>' into the input field, the attacker crafts a query to retrieve all user data from the database.</li>
+    <li><strong>Dropping Tables:</strong><br>
+     Injecting '<code>105; DROP TABLE Suppliers</code>' exploits batched SQL statements, executing additional malicious commands.</li>
+  </ol>
+
+  <h2>Mitigation Strategies</h2>
+
+  <p class="paragraph">Protecting against SQL injection requires a proactive approach:</p>
+
+  <ol class="paragraph">
+    <li><strong>Parameterized Queries:</strong> Use parameterized queries to separate SQL code from user input, preventing injection attacks.</li>
+    <li><strong>Input Validation:</strong> Implement strict input validation to filter and sanitize user inputs, rejecting unauthorized data.</li>
+    <li><strong>Least Privilege Principle:</strong> Assign minimal permissions for database access, limiting the impact of successful attacks.</li>
+    <li><strong>Web Application Firewalls (WAF):</strong> Deploy WAF solutions capable of detecting and blocking suspicious SQL injection attempts.</li>
+    <li><strong>Regular Audits and Penetration Testing:</strong> Conduct comprehensive security audits and penetration tests to identify and remediate vulnerabilities.</li>
+  </ol>
+
+  <h2>Example of Secure Coding Practices</h2>
+
+  <p>Implementing parameterized queries in PHP:</p>
+
+  <pre><code class="language-php">$stmt = $dbh->prepare("INSERT INTO Customers (CustomerName, Address, City) VALUES (:nam, :add, :cit)");
+$stmt->bindParam(':nam', $txtNam);
+$stmt->bindParam(':add', $txtAdd);
+$stmt->bindParam(':cit', $txtCit);
+$stmt->execute();</code></pre>
+
+  <h2>Conclusion</h2>
+
+  <p class="paragraph">SQL injection remains a potent threat to web application security, capable of wreaking havoc on databases and compromising sensitive information. At HackZap Security, we advocate for vigilance, education, and robust security measures to defend against such attacks. By understanding the intricacies of SQL injection and implementing best practices, organizations can fortify their defenses and safeguard their digital assets against malicious exploitation.</p>
+
+            
+            <p class="paragraph">Thank you for reading!</p>
+            
+            <!-- end of blog -->
+
+          <!-- Start Next and Prev Button -->
+          <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px;">
+            <a href="/Blogs/blogCardPages/blogs/blog1.html"><button  class="button-33" >PREVIOUS</button></a>
+            <a href="#"><button  class="button-33" style="margin-left: 10px;">NEXT</button></a>
+          </div>
+          <!-- End Next and Prev Button -->
+
+
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Hackzap Security</h3>
+            <em>
+              <strong>Email:</strong> hackzapsecurity@protonmail.com<br>
+              <strong>WhatsApp:</strong> +91 7686 046 742<br>
+            </em>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/pentesting/web-pentesting.html">Web Application Pentesting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/other-services/customized-security-consultancy.html">Customized Security Consultancy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/auditing/secure-code-analysis.html">Secure Code Analysis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/development/secure-web-development.html">Secure Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/services/pentesting/api-pentesting.html">API Pensting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/courses.html">Our Courses</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p class="paragraph">Don't miss out on the latest cybersecurity insights! Join our mailing list.</p>
+            <form action="#" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Hackzap Security</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Find our sitemap here: <a href="https://www.hackzapsecurity.in/sitemap.xml">Sitemap.</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://twitter.com/hackzapsecurity" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/hackzapsecurity/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/hackzapsecurity/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/hackzap-security/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.youtube.com/hackzap-security/" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=917686046742&text=Hi%2C%20I%20have%20some%20doubt%20regarding%20Hackzap%20Security%27s%20services/" class="linkedin" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/Blogs/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/Blogs/assets/vendor/aos/aos.js"></script>
+  <script src="/Blogs/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/Blogs/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/Blogs/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/Blogs/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/Blogs/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/Blogs/assets/js/main.js"></script>
+
+</body>
+
+</html>
